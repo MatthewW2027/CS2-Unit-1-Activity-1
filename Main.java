@@ -18,7 +18,7 @@ public class Main {
       System.out.println("Enter a noun: ");
       String noun = input.nextLine(); 
       System.out.print("Enter a number: ");
-      int number =  input.nextInt(); 
+      String number =  input.nextLine(); 
       System.out.println("Enter a mode of transportation: ");
       String modeOfTransportation1 = input.nextLine(); 
       System.out.println("Enter a sport: "); 
