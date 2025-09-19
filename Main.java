@@ -15,17 +15,28 @@ public class Main {
       System.out.println("Welcome " + player);
 
       // Create variables for each placeholder word 
-      String noun = "park"; 
-      int number = 200000; 
-      String modeOfTransportation1 = "bus"; 
-      String sport = "baseball"; 
-      String adjective1 = "fun"; 
-      String food1 = "pizzia"; 
-      String food2 = "french fries";
-      String drink = "water"; 
-      String game = "chess"; 
-      String modeOfTransportation2 = "car"; 
-      String adjective2 = "wierd"; 
+      System.out.println("Enter a noun: ");
+      String noun = input.nextLine(); 
+      System.out.print("Enter a number: ");
+      int number =  input.nextInt(); 
+      System.out.println("Enter a mode of transportation: ");
+      String modeOfTransportation1 = input.nextLine(); 
+      System.out.println("Enter a sport: "); 
+      String sport = input.nextLine(); 
+      System.out.println("Enter an adjective: ");
+      String adjective1 = input.nextLine(); 
+      System.out.println("Enter a food: "); 
+      String food1 = input.nextLine();
+      System.out.println("Enter another food: ");  
+      String food2 = input.nextLine();
+      System.out.println("Enter a drink: "); 
+      String drink = input.nextLine(); 
+      System.out.println("Enter a game: "); 
+      String game = input.nextLine();
+      System.out.println("Enter a mode of transportation: ");  
+      String modeOfTransportation2 = input.nextLine(); 
+      System.out.println("Enter an adjective: "); 
+      String adjective2 = input.nextLine(); 
       // Print your story line by line 
       System.out.println("Today we are going to the " + noun);
       System.out.println("It will take " + number + " minuites to get there.");
